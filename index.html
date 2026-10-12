@@ -22,7 +22,7 @@
 
   <header class="site-header">
     <h1>Jackson Sibold</h1>
-    <nav aria-label="Primary">
+    <nav aria-label="Site">
       <a href="#projects">Projects</a>
       <a href="#about">About</a>
       <a href="https://github.com/JacksonSibold">GitHub</a>
@@ -30,8 +30,8 @@
   </header>
 
   <main id="main">
-    <section id="projects">
-      <h2>Projects</h2>
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
       <ul class="project-list">
         <li class="project">
           <h3><a href="https://github.com/JacksonSibold/study-tip-sender">study-tip-sender</a></h3>
@@ -52,8 +52,8 @@
       </ul>
     </section>
 
-    <section id="about">
-      <h2>About</h2>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
       <p>I'm Jackson Sibold. This site lists my public GitHub projects. Here is what they cover, based on their READMEs:</p>
       <ul>
         <li>Python scheduling and delivery code, including DST-aware scheduling with <code>zoneinfo</code>, bounded retries with exponential backoff, and recovery from malformed state files (study-tip-sender).</li>
