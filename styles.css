@@ -136,3 +136,15 @@ a:focus-visible {
   margin: 0;
   color: var(--muted);
 }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121317;
+    --text: #e9e9ee;
+    --muted: #b9b9c4;
+    --accent: #8ab4f8;
+    --border: #34343d;
+    --focus: #8ab4f8;
+    color-scheme: dark;
+  }
+}
