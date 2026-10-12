@@ -109,3 +109,30 @@ a:focus-visible {
     animation: none !important;
   }
 }
+
+.project-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1.25rem;
+}
+
+.project {
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.project:last-child {
+  border-bottom: none;
+}
+
+.project h3 {
+  font-size: 1.05rem;
+  margin: 0 0 0.25rem;
+}
+
+.project p {
+  margin: 0;
+  color: var(--muted);
+}
